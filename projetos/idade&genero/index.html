@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idade&Gênero</title>
+    <style>
+       body{background-color: rgb(0, 153, 255);}
+       
+       header > h1 {text-align: center;
+        color: white;}
+       
+       section{background-color: white;
+        width: 600px;
+        max-height: 600px;
+        margin: auto;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.466);}
+
+        footer{text-align: center;
+            color: white;}
+
+        #idade{padding: 10px;}
+        
+        #genero{padding: 10px;}
+
+        #bot{margin-left: 10px;
+            margin-top: 10px;}
+
+        #nascimento{width: 80px;} 
+        
+        #res{padding: 10px;
+            text-align: center;}
+            
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <div id="idade">
+            <p>Ano de Nascimento: <input type="number" name="nascimento" id="nascimento"></p>
+          
+        </div>
+        <div id="genero">
+            Sexo:
+            <input type="radio" name="sexo" id="mas">
+            <label for="mas">Masculino</label>
+            <input type="radio" name="sexo" id="fem">
+            <label for="fem">Feminino</label>
+        </div>
+
+        <input id="bot" type="button" value="Verificador" onclick="verificar()">
+
+        <div id="res">
+            
+        </div>
+     
+    </section>   
+    <footer>
+        <p> &copy; LeadndroCosta</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
