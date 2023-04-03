@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {background-color: rgba(0, 128, 0, 0.644);}
+
+header{color: white;
+    text-align: center;}
+
+section{background-color: whitesmoke;
+    width: 600px;
+    height: 250px;
+    margin: auto;}
+
+#numero > p {padding: 10px;
+    text-indent: 10px;}
+    
+
+
+footer{color: white;
+    text-align: center;}    

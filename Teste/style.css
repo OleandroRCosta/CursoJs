@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+header > h1 {display: inline-block;}
+header > #tab , #vei {border-style: solid;
+    border-collapse: collapse;
+    background-color: #abb2b9;
+    width: 10px;
+    height: 10px;
+    }

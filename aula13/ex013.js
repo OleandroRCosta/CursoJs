@@ -6,7 +6,7 @@ do {
     } while (c <= 7)
 
 
-/* 
+
 
 var c = 1
 
@@ -14,5 +14,3 @@ while (c <= 6) {
     console.log('Passo '+ c)
     c++
 }
-
-*/
